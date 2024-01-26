@@ -1,6 +1,10 @@
 .bodyContainer {
-  /* background-color: blue; */
   position: relative;
   margin-top: 200px;
-  height: 100000px;
+}
+
+@media (max-width: 800px) {
+  .bodyContainer {
+    margin-top: 100px;
+  }
 }
