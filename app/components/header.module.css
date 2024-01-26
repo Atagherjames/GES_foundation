@@ -1,0 +1,135 @@
+.header {
+  background-color: #ffff;
+  opacity: 0.8;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  height: 150px;
+  border-bottom: 1px solid #e4dbdb;
+}
+
+.headerScrolled {
+  height: 80px;
+  background: #000000;
+  color: #fff;
+  border-bottom: none;
+}
+
+.headerContainer {
+  position: relative;
+  width: 100%;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.hideTopBar {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 50px;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.menu li {
+  font-size: inherit;
+}
+
+.donateBtn {
+  background: rgb(209, 141, 15);
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.donateBtn:hover {
+  background: rgb(192, 130, 14);
+  color: #e7e2e2;
+}
+
+/* mobile navigation */
+.mobileMenuContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.mobileNavHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobileNavLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: height 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mobileNavLink.visible {
+  height: auto;
+}
+
+.mobileNavLink ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobileNavLink ul li {
+  margin-top: 30px;
+}
+
+.mobileNavLink ul li:hover {
+  color: rgb(192, 130, 14);
+}
+
+.mobileNavLink ul li:last-of-type:hover {
+  color: #fff;
+}
+
+.donation {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobileMenuContainer {
+    display: block;
+  }
+
+  .topHeader {
+    display: none;
+  }
+
+  .headerScrolled {
+    background: #ffff;
+    color: #000000;
+  }
+
+  .header {
+    height: 90px;
+  }
+}
