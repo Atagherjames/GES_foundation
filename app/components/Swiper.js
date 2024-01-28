@@ -57,7 +57,7 @@ export default function SlideShow() {
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
           <Image
-            src={"/asset/Shelter.webp"}
+            src={"/asset/house.jpg"}
             width={100}
             height={100}
             alt="ssss"
