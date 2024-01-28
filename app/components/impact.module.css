@@ -1,0 +1,40 @@
+.impactContainer {
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.impactTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  font-size: 25px;
+  color: #2b66b9;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  color: #2b66b9;
+  width: 300px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.card h1 {
+  font-size: 19px;
+  padding-top: 12px;
+}
+
+.card p {
+  font-size: 17px;
+}

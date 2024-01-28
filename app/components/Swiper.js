@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,23 +22,26 @@ export default function SlideShow() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 4000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className={`${styles.mySwiper} ${styles.swiper}`}
       >
         <SwiperSlide className={styles.swiperSlide}>
           <Image
-            src={"/asset/children.jpg"}
+            src={"/asset/education.jpg"}
             width={100}
             height={100}
             alt="ssss"
+            layout="responsive"
           />
+          <span className={styles.caption}>
+            Enhancing Access to Quality Education
+          </span>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
           <Image
@@ -44,7 +49,11 @@ export default function SlideShow() {
             width={100}
             height={100}
             alt="ssss"
+            layout="responsive"
           />
+          <span className={styles.caption}>
+            Providing Access to Quality and Affordable Health Care
+          </span>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
           <Image
@@ -52,10 +61,11 @@ export default function SlideShow() {
             width={100}
             height={100}
             alt="ssss"
+            layout="responsive"
           />
 
           <span className={styles.caption}>
-            captionsslslslsssssssssssssssss
+            Ensuring Access to Safe and Affordable Shelter for All
           </span>
         </SwiperSlide>
       </Swiper>
