@@ -30,8 +30,12 @@ const Mobile = () => {
           <li>
             <Link href={"/"}>PROGRAMMES</Link>
           </li>
+
           <li>
             <Link href={"/"}>GRANTMAKING</Link>
+          </li>
+          <li>
+            <Link href={"/"}>NEWS</Link>
           </li>
           <li>
             <Link href={"/"}>CONTACT US</Link>

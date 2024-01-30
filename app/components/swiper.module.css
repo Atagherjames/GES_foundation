@@ -22,7 +22,7 @@
 .swiperSlide .caption {
   position: absolute;
   z-index: 2;
-  bottom: 100px;
+  bottom: 50px;
   width: auto;
   background-color: black;
   opacity: 0.6;
@@ -51,7 +51,7 @@
   }
 
   .swiperSlide .caption {
-    bottom: 50px;
+    bottom: 20px;
     padding: 10px 25px;
   }
 }

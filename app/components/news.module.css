@@ -1,0 +1,27 @@
+.newsContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsContainer h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 800px) {
+  .newsHeader {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

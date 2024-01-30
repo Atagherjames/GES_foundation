@@ -57,6 +57,9 @@ const Header = () => {
                 <HeaderDropDownThree />
               </li>
               <li>
+                <Link href={"/"}>NEWS</Link>
+              </li>
+              <li>
                 <Link href={"/"}>CONTACT US</Link>
               </li>
               <li className={styles.donateBtn}>

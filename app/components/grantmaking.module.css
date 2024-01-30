@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   padding: 15px;
+  padding-top: 60px;
   color: #ffffff;
 }
 
@@ -40,6 +41,7 @@
 
 .icon {
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .card h2 {
@@ -60,5 +62,9 @@
     margin-left: auto;
     margin-right: auto;
     gap: 50px;
+  }
+
+  .grantContainer h1 {
+    padding-top: 50px;
   }
 }

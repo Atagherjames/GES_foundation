@@ -1,6 +1,8 @@
 import { ABeeZee } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Copyright from "./components/Copyright";
 import styles from "./home.module.css";
 
 const abeezee = ABeeZee({ weight: "400", subsets: ["latin"] });
@@ -19,6 +21,8 @@ export default function RootLayout({ children }) {
           <Header />
         </main>
         <section className={styles.bodyContainer}>{children}</section>
+        <Footer />
+        <Copyright />
       </body>
     </html>
   );
