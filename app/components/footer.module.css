@@ -1,54 +1,76 @@
-.footerContainer {
+.footer {
   width: 100%;
+  background-color: rgba(43, 102, 185, 0.9);
   display: flex;
-  gap: 50px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  background-color: rgba(43, 102, 185, 0.9);
-  color: #fff;
+  color: #ffffff;
+}
+
+.footerContainer {
+  position: relative;
+  max-width: 1000px;
+  display: grid;
+  gap: 50px;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .footerContainer h3 {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  font-size: 22px;
 }
 
-.form {
+.footerContainer h3,
+.footerContainer p,
+.footerLinks ul li {
+  padding-bottom: 10px;
+}
+
+.footerContent {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-}
-
-.formItem {
-  display: flex;
   gap: 10px;
 }
 
-.formItem input {
-  padding: 4px;
+.footerContent form {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.formItem input:focus {
+.footerContent form input,
+.footerContent form button {
+  padding: 7px;
+  font-size: 18px;
+  border: none;
   outline: none;
 }
 
-.form button {
-  padding: 5px;
-  width: 100px;
-  margin-left: 60px;
+.footerContent form button {
   cursor: pointer;
-  outline: none;
+  background: rgb(209, 141, 15);
+  color: #ffffff;
 }
 
-@media (max-width: 1000px) {
+.footerContent form button:hover {
+  background: #000000;
+}
+
+.footerLinks ul li a:hover {
+  color: #000000;
+}
+
+@media (max-width: 900px) {
   .footerContainer {
+    display: flex;
     flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    gap: 20px;
   }
 
   .footerContainer h3 {
-    margin-bottom: 15px;
+    font-size: 20px;
   }
 }

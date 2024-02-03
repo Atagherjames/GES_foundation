@@ -1,48 +1,49 @@
+import Link from "next/link";
 import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <div className={styles.footerContainer}>
-      <section>
-        <h3>Head Office – Abuja</h3>
-        <p>
-          35 Fandriana Close, Off Dar Es Salaam Street,
-          <br />
-          Aminu Kano Crescent
-          <br />
-          Wuse II, Abuja-FCT, Nigeria
-          <br />
-          +234 906 5447 852 <br />
-          contact@tydanjumafoundation.org
-        </p>
-      </section>
-      <section>
-        <h3>Taraba Office</h3>
-        <p>
-          Former Ministry of Poverty Alleviation Office, <br />
-          Jolly Nyame Street, after Taraba Hotel, <br />
-          Jalingo, Taraba State.
-          <br />
-          +234 811 6548 718
-          <br />
-          taraba@tydanjumafoundation.org
-        </p>
-      </section>
-      <section>
-        <h3>News Letter</h3>
-        <form className={styles.form}>
-          <span className={styles.formItem}>
-            <label>Name:</label>
-            <input type="text" />
-          </span>
-          <span className={styles.formItem}>
-            <label>Email: </label>
-            <input type="email" />
-          </span>
-          <button>Submit</button>
-        </form>
-      </section>
-    </div>
+    <footer className={styles.footer}>
+      <div className={styles.footerContainer}>
+        <div className={styles.footerContent}>
+          <h3>Stay Connected</h3>
+          <p>
+            Subscribe to our newsletter for updates on our projects and
+            initiatives.
+          </p>
+          <form>
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div className={styles.footerContact}>
+          <h3>Contact Us</h3>
+          <p>123 NGO Street, Cityville, Country</p>
+          <p>Email: info@ngosite.org</p>
+          <p>Phone: 09097895859</p>
+        </div>
+        <div className={styles.footerLinks}>
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <Link href="#">Home</Link>
+            </li>
+            <li>
+              <Link href="#">About Us</Link>
+            </li>
+            <li>
+              <Link href="#">Programmes</Link>
+            </li>
+            <li>
+              <Link href="#">Donation</Link>
+            </li>
+            <li>
+              <Link href="#">Contact</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   );
 };
 

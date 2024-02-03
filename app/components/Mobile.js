@@ -12,7 +12,7 @@ const Mobile = () => {
       <div className={styles.mobileNavHeader}>
         <Link href={"/"}>
           <Image
-            src={"/vercel.svg"}
+            src={"/asset/ges_foundation.png"}
             height={100}
             width={100}
             alt="GES Foundation"
@@ -25,23 +25,35 @@ const Mobile = () => {
       >
         <ul>
           <li>
-            <Link href={"/"}>WHO WE ARE</Link>
+            <Link href={"/"} onClick={() => setOpen(false)}>
+              WHO WE ARE
+            </Link>
           </li>
           <li>
-            <Link href={"/"}>PROGRAMMES</Link>
+            <Link href={"/"} onClick={() => setOpen(false)}>
+              PROGRAMMES
+            </Link>
           </li>
 
           <li>
-            <Link href={"/"}>GRANTMAKING</Link>
+            <Link href={"/"} onClick={() => setOpen(false)}>
+              GRANTMAKING
+            </Link>
           </li>
           <li>
-            <Link href={"/"}>NEWS</Link>
+            <Link href={"/"} onClick={() => setOpen(false)}>
+              NEWS
+            </Link>
           </li>
           <li>
-            <Link href={"/"}>CONTACT US</Link>
+            <Link href={"/"} onClick={() => setOpen(false)}>
+              CONTACT US
+            </Link>
           </li>
           <li className={`${styles.donateBtn} ${styles.donation}`}>
-            <Link href={"/"}>DONATE</Link>
+            <Link href="/donation" onClick={() => setOpen(false)}>
+              DONATE
+            </Link>
           </li>
         </ul>
       </div>

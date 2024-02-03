@@ -44,11 +44,7 @@ const HeaderDropDown = () => {
           {React.cloneElement(menu, {
             style: menuStyle,
           })}
-          {/* <Divider
-            style={{
-              margin: 0,
-            }}
-          /> */}
+
           <Space
             style={{
               padding: 8,

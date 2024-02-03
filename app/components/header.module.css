@@ -5,7 +5,7 @@
   width: 100vw;
   z-index: 100;
   height: 150px;
-  border-bottom: 1px solid #e4dbdb;
+  /* border-bottom: 1px solid #e4dbdb; */
 }
 
 .headerScrolled {

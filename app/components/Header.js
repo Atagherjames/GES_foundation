@@ -37,9 +37,9 @@ const Header = () => {
           className={`${styles.topHeader}  ${hide ? styles.hideTopBar : ""}`}
         >
           <Image
-            src={"./vercel.svg"}
-            width={300}
-            height={300}
+            src={"/asset/ges_foundation.png"}
+            width={140}
+            height={140}
             alt="GES Foundation"
           />
         </div>
@@ -63,7 +63,7 @@ const Header = () => {
                 <Link href={"/"}>CONTACT US</Link>
               </li>
               <li className={styles.donateBtn}>
-                <Link href={"/"}>DONATE</Link>
+                <Link href="/donation">DONATE</Link>
               </li>
             </ul>
           </div>
