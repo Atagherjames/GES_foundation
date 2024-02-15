@@ -8,16 +8,26 @@ const { useToken } = theme;
 const items = [
   {
     key: "1",
-    label: <Link href={"/"}>Health</Link>,
+    label: <Link href={"/services/health"}>Health</Link>,
   },
   {
     key: "2",
-    label: <Link href={"/"}>Education</Link>,
+    label: <Link href={"/services/education"}>Education</Link>,
     disabled: false,
   },
   {
     key: "3",
-    label: <Link href={"/"}>Projects Supported</Link>,
+    label: <Link href={"/services/childprotection"}>Child Protection</Link>,
+    disabled: false,
+  },
+  {
+    key: "4",
+    label: <Link href={"/services/shelter"}>Wash & Shelter</Link>,
+    disabled: false,
+  },
+  {
+    key: "5",
+    label: <Link href={"/services/legalservice"}>Legal Services</Link>,
     disabled: false,
   },
 ];
@@ -52,9 +62,9 @@ const HeaderDropDownTwo = () => {
         </div>
       )}
     >
-      <Link href={"/"}>
+      <Link href={"/services"}>
         <Space>
-          PROGRAMMES
+          SERVICES
           <DownOutlined />
         </Space>
       </Link>

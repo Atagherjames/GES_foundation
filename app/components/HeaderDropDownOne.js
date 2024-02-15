@@ -2,22 +2,17 @@
 
 import React from "react";
 import { DownOutlined } from "@ant-design/icons";
-import { Dropdown, Space, Divider, Button, theme } from "antd";
+import { Dropdown, Space, theme } from "antd";
 import Link from "next/link";
 const { useToken } = theme;
 const items = [
   {
     key: "1",
-    label: <Link href={"/"}>About the Foundation</Link>,
+    label: <Link href={"/aboutus/about"}>About the Foundation</Link>,
   },
   {
     key: "2",
-    label: <Link href={"/"}>Board of Trustees</Link>,
-    disabled: false,
-  },
-  {
-    key: "3",
-    label: <Link href={"/"}>Our Team</Link>,
+    label: <Link href={"/aboutus/trustees"}>Board of Trustees</Link>,
     disabled: false,
   },
 ];
@@ -53,7 +48,7 @@ const HeaderDropDown = () => {
         </div>
       )}
     >
-      <Link href={"/"}>
+      <Link href={"/aboutus"}>
         <Space>
           WHO WE ARE
           <DownOutlined />

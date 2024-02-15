@@ -77,10 +77,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: #f4f4f4;
   height: 0;
   overflow: hidden;
-  opacity: 0.9;
+  opacity: 1;
   transition: height 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

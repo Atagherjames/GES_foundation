@@ -4,8 +4,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import styles from "./home.module.css";
-
-const abeezee = ABeeZee({ weight: "400", subsets: ["latin"] });
+const abeezee = ABeeZee({
+  weight: "400",
+  display: "swap",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "GES Foundation",

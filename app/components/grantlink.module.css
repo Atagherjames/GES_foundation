@@ -1,0 +1,32 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100% !important;
+  background-color: #f4f4f4;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  height: 40px;
+}
+
+.navContainer a {
+  height: 100%;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.navContainer a:hover {
+  background: rgba(43, 102, 185, 0.9);
+}
+
+@media (max-width: 800px) {
+  .navContainer {
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    height: auto;
+  }
+}

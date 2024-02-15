@@ -1,0 +1,41 @@
+.trusteeContainer {
+  width: 100%;
+  background: #f4f4f4;
+  padding-bottom: 50px;
+}
+
+.topHeader {
+  width: 100%;
+  background-image: url("/asset/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.trustee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  gap: 50px;
+}
+
+/* trustee details */
+.trusteeDetails {
+  text-align: center;
+}
+
+.trusteeDetails h3 {
+  font-size: larger;
+  font-weight: 900;
+}

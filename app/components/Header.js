@@ -57,10 +57,10 @@ const Header = () => {
                 <HeaderDropDownThree />
               </li>
               <li>
-                <Link href={"/"}>NEWS</Link>
+                <Link href={"/news"}>NEWS</Link>
               </li>
               <li>
-                <Link href={"/"}>CONTACT US</Link>
+                <Link href="/contact">CONTACT US</Link>
               </li>
               <li className={styles.donateBtn}>
                 <Link href="/donation">DONATE</Link>

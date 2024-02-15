@@ -1,0 +1,45 @@
+.card {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.card a {
+  background: rgba(43, 102, 185, 0.9);
+  margin-top: 15px;
+  color: #f4f4f4;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.postTitle {
+  margin: 10px 0;
+}
+
+.postDate {
+  background: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}

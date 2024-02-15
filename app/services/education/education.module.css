@@ -1,0 +1,74 @@
+.educationContainer {
+  width: 100%;
+  background: #f4f4f4;
+  padding-bottom: 50px;
+}
+
+.topHeader {
+  width: 100%;
+  background-image: url("/asset/educaation.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.topHeader div {
+  width: 50%;
+  text-align: center;
+  background: #000;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+.topHeader div p {
+  font-size: 25px;
+}
+
+.educationBody {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.educationBody article section {
+  padding-top: 30px;
+}
+
+.educationBody article section h2 {
+  font-size: 1.4rem;
+}
+
+.educationBody article .textHead {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.educationBody article section p {
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .topHeader div {
+    width: 90%;
+  }
+
+  .topHeader div h1 {
+    font-size: 35px;
+  }
+
+  .topHeader div p {
+    font-size: 22px;
+  }
+
+  .educationBody {
+    width: 90%;
+  }
+}

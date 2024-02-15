@@ -1,0 +1,14 @@
+.container {
+  display: block;
+  font-size: 20px;
+}
+
+.container h4 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.container ol li {
+  list-style: square;
+  margin-left: 20px;
+}

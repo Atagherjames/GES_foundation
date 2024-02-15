@@ -1,6 +1,5 @@
 "use client";
 import styles from "./donation.module.css";
-import Image from "next/image";
 import { Form, Input, Select, Button } from "antd";
 
 import { Option } from "antd/lib/mentions";

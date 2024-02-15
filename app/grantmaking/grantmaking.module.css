@@ -1,0 +1,123 @@
+.grantMakingContainer {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+.topHeader {
+  width: 100%;
+  background-image: url("/asset/programmes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.topHeader div {
+  width: 50%;
+  text-align: center;
+}
+
+.topHeader div h1 {
+  padding-bottom: 10px;
+}
+
+.topHeader div p {
+  font-size: 25px;
+}
+
+.programBody {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cardContainer a {
+  flex-basis: 30%;
+}
+
+.linkStyle {
+  box-shadow: 5px 5px 10px #f4f4f4, -5px -5px 10px #f4f4f4;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.iconContainer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgba(43, 102, 185, 0.9);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 45px;
+  color: rgba(43, 102, 185, 0.9);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgba(43, 102, 185, 0.9);
+}
+
+.btnContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+  .cardContainer {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .topHeader div {
+    width: 90%;
+  }
+
+  .topHeader div h1 {
+    font-size: 35px;
+  }
+
+  .topHeader div p {
+    font-size: 22px;
+  }
+}

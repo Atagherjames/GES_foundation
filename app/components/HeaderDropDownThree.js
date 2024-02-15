@@ -1,23 +1,21 @@
-// "use client";
-
 import React from "react";
 import { DownOutlined } from "@ant-design/icons";
-import { Dropdown, Space, Divider, Button, theme } from "antd";
+import { Dropdown, Space, theme } from "antd";
 import Link from "next/link";
 const { useToken } = theme;
 const items = [
   {
     key: "1",
-    label: <Link href={"/"}>Annual Grant</Link>,
+    label: <Link href={"/grantmaking/annual"}>Annual Grant</Link>,
   },
   {
     key: "2",
-    label: <Link href={"/"}>Discretionary Grant</Link>,
+    label: <Link href={"/grantmaking/descritionary"}>Discretionary Grant</Link>,
     disabled: false,
   },
   {
     key: "3",
-    label: <Link href={"/"}>Partnerships</Link>,
+    label: <Link href={"/grantmaking/partnership"}>Partnerships</Link>,
     disabled: false,
   },
 ];
@@ -44,11 +42,7 @@ const HeaderDropDownThree = () => {
           {React.cloneElement(menu, {
             style: menuStyle,
           })}
-          {/* <Divider
-            style={{
-              margin: 0,
-            }}
-          /> */}
+
           <Space
             style={{
               padding: 8,
@@ -57,7 +51,7 @@ const HeaderDropDownThree = () => {
         </div>
       )}
     >
-      <Link href={"/"}>
+      <Link href={"/grantmaking"}>
         <Space>
           GRANTMAKING
           <DownOutlined />

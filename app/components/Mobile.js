@@ -25,28 +25,28 @@ const Mobile = () => {
       >
         <ul>
           <li>
-            <Link href={"/"} onClick={() => setOpen(false)}>
+            <Link href={"/aboutus"} onClick={() => setOpen(false)}>
               WHO WE ARE
             </Link>
           </li>
           <li>
-            <Link href={"/"} onClick={() => setOpen(false)}>
-              PROGRAMMES
+            <Link href={"/services"} onClick={() => setOpen(false)}>
+              SERVICES
             </Link>
           </li>
 
           <li>
-            <Link href={"/"} onClick={() => setOpen(false)}>
+            <Link href={"/grantmaking"} onClick={() => setOpen(false)}>
               GRANTMAKING
             </Link>
           </li>
           <li>
-            <Link href={"/"} onClick={() => setOpen(false)}>
+            <Link href={"/news"} onClick={() => setOpen(false)}>
               NEWS
             </Link>
           </li>
           <li>
-            <Link href={"/"} onClick={() => setOpen(false)}>
+            <Link href={"/contact"} onClick={() => setOpen(false)}>
               CONTACT US
             </Link>
           </li>
