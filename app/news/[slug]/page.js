@@ -13,11 +13,11 @@ const getPostContent = (post) => {
   return matterResult;
 };
 
-export const generateStaticParams = async () => {
+export const generateStaticParams = () => {
   const posts = getPostMetadata();
-  return posts.map((post) => {
-    slug: post.slug;
-  });
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
 };
 
 const page = ({ params }) => {
