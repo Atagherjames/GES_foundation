@@ -67,12 +67,10 @@
   font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgba(43, 102, 185, 0.9);
+  color: rgba(50, 68, 94, 0.9);
 }
 
 .btnContainer {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,5 +84,9 @@
 @media (max-width: 1000px) {
   .cardContainer a {
     flex-basis: 100%;
+  }
+
+  .topHeader {
+    font-size: 30px;
   }
 }

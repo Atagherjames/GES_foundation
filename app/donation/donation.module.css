@@ -28,15 +28,29 @@
 .form {
   max-width: 700px;
   margin-top: 50px;
-
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #ccc;
 }
 
+.form button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+
 @media (max-width: 800px) {
+  .donationBody {
+    width: 90%;
+  }
+
   .donationHeader {
     font-size: 30px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 15px;
   }
 }

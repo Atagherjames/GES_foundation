@@ -2,7 +2,6 @@
 import styles from "./donation.module.css";
 import { Form, Input, Select, Button } from "antd";
 
-import { Option } from "antd/lib/mentions";
 import TextArea from "antd/lib/input/TextArea";
 
 const donation = () => {
@@ -63,10 +62,6 @@ const donation = () => {
               name="phoneNumber"
               rules={[
                 { required: true, message: "Please enter your phone number" },
-                {
-                  pattern: /^(0\d{10})$/,
-                  message: "Please enter a valid phone number",
-                },
               ]}
             >
               <Input />
@@ -84,9 +79,15 @@ const donation = () => {
               ]}
             >
               <Select defaultValue="ResourcePartner">
-                <Option value="ResourcePartner">Resource Partner</Option>
-                <Option value="NetworkPartner">Network Partner</Option>
-                <Option value="LearningPartner">Learning Partner</Option>
+                <Select.Option value="ResourcePartner">
+                  Resource Partner
+                </Select.Option>
+                <Select.Option value="NetworkPartner">
+                  Network Partner
+                </Select.Option>
+                <Select.Option value="LearningPartner">
+                  Learning Partner
+                </Select.Option>
               </Select>
             </Form.Item>
 
@@ -94,7 +95,6 @@ const donation = () => {
             <Form.Item
               label="Message"
               name="message"
-              autoSize={false}
               rules={[
                 {
                   required: true,
@@ -102,7 +102,7 @@ const donation = () => {
                 },
               ]}
             >
-              <TextArea rows={4} autoSize={{ minRows: 4, maxRows: 4 }} />
+              <TextArea rows={4} />
             </Form.Item>
 
             {/* Submit Button */}

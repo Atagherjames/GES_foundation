@@ -11,21 +11,19 @@ const page = () => {
       <div className={styles.topHeader}>
         <h1>Contact Us</h1>
       </div>
-      <div className={styles.donationBody}>
+      <div className={styles.contactBody}>
         <div className={styles.address}>
           <Card
             bordered={false}
-            style={{
-              width: 300,
-            }}
+            className={styles.card}
             title={
-              <span>
+              <span style={{ fontSize: 20, fontWeight: 800 }}>
                 <Avatar
                   size={40}
                   icon={<EnvironmentOutlined />}
                   style={{ marginRight: 8 }}
                 />
-                Card title
+                Contact Us
               </span>
             }
           >
@@ -94,10 +92,6 @@ const page = () => {
                 name="phoneNumber"
                 rules={[
                   { required: true, message: "Please enter your phone number" },
-                  {
-                    pattern: /^(0\d{10})$/,
-                    message: "Please enter a valid phone number",
-                  },
                 ]}
               >
                 <Input />
@@ -111,7 +105,6 @@ const page = () => {
               <Form.Item
                 label="Message"
                 name="message"
-                autoSize={false}
                 rules={[
                   {
                     required: true,

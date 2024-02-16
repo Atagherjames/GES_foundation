@@ -18,12 +18,16 @@
   font-size: 40px;
 }
 
-.donationBody {
+.contactBody {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
   padding-bottom: 50px;
+}
+
+.card {
+  width: 400px;
 }
 
 .address {
@@ -53,15 +57,33 @@
   width: 600px;
 }
 
+.contactForm form button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+
 .mapContainer iframe {
   width: 100%;
 }
 
 @media (max-width: 900px) {
+  .topHeader {
+    font-size: 30px;
+  }
+
   .contactInfo {
     flex-direction: column;
     gap: 30px;
     width: 95%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .contactBody {
+    width: 90%;
   }
 
   .contactForm {

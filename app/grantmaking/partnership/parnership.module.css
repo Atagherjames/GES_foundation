@@ -80,13 +80,19 @@
   font-size: 18px;
 }
 
-.form {
+.formContainer {
   max-width: 800px;
   margin-top: 50px;
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #ccc;
+}
+
+.form button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
 }
 
 @media (max-width: 1200px) {
@@ -115,7 +121,12 @@
     font-size: 1.4rem;
   }
 
-  .form {
+  .formContainer {
     width: 90%;
+    padding: 15px;
+  }
+
+  .form {
+    width: 100%;
   }
 }

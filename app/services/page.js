@@ -34,10 +34,8 @@ const page = () => {
                 bridge the gap in access to medical services.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                READ MORE
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">READ MORE</Button>
             </p>
           </Link>
 
@@ -56,10 +54,8 @@ const page = () => {
                 to bridge the gap in access to educational opportunities.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                READ MORE
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">READ MORE</Button>
             </p>
           </Link>
 
@@ -77,10 +73,8 @@ const page = () => {
                 any form of harm or exploitation.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                READ MORE
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">READ MORE</Button>
             </p>
           </Link>
 
@@ -98,10 +92,8 @@ const page = () => {
                 has access to a safe and secure shelter.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                READ MORE
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">READ MORE</Button>
             </p>
           </Link>
 
@@ -120,10 +112,8 @@ const page = () => {
                 representation.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                READ MORE
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">READ MORE</Button>
             </p>
           </Link>
         </div>

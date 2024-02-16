@@ -2,8 +2,6 @@
 import styles from "./parnership.module.css";
 import { useState } from "react";
 import { Collapse, Form, Input, Select, Button } from "antd";
-
-import { Option } from "antd/lib/mentions";
 import TextArea from "antd/lib/input/TextArea";
 
 const Page = () => {
@@ -149,12 +147,13 @@ const Page = () => {
         </div>
       </div>
       {/* partnership form  */}
-      <section className={styles.form}>
+      <section className={styles.formContainer}>
         <Form
           labelCol={{ span: 8 }}
           wrapperCol={{ span: 16 }}
           // action="your_backend_endpoint_url"
           method="POST"
+          className={styles.form}
         >
           <Form.Item
             label="First Name"
@@ -194,7 +193,6 @@ const Page = () => {
             rules={[
               { required: true, message: "Please enter your phone number" },
               {
-                pattern: /^(0\d{10})$/,
                 message: "Please enter a valid phone number",
               },
             ]}
@@ -214,9 +212,15 @@ const Page = () => {
             ]}
           >
             <Select defaultValue="ResourcePartner">
-              <Option value="ResourcePartner">Resource Partner</Option>
-              <Option value="NetworkPartner">Network Partner</Option>
-              <Option value="LearningPartner">Learning Partner</Option>
+              <Select.Option value="ResourcePartner">
+                Resource Partner
+              </Select.Option>
+              <Select.Option value="NetworkPartner">
+                Network Partner
+              </Select.Option>
+              <Select.Option value="LearningPartner">
+                Learning Partner
+              </Select.Option>
             </Select>
           </Form.Item>
 

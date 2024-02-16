@@ -27,7 +27,7 @@ const page = () => {
                 implementation in any state across Nigeria.
               </p>
             </div>
-            <p>
+            <p className={styles.btnContainer}>
               <Button variant="outlined" className={styles.btnContainer}>
                 READ MORE
               </Button>
@@ -46,10 +46,8 @@ const page = () => {
                 interventions aligned with the Foundation's focus areas.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                READ MORE
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">READ MORE</Button>
             </p>
           </Link>
         </div>

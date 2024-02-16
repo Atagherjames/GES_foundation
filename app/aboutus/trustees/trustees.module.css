@@ -39,3 +39,10 @@
   font-size: larger;
   font-weight: 900;
 }
+
+@media (max-width: 800px) {
+  .topHeader {
+    font-size: 30px;
+    text-align: center;
+  }
+}
