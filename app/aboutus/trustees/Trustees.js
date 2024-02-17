@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./trustees.module.css";
-const Trustees = () => {
+const Trustees = ({ name, title, src }) => {
   return (
     <div className={styles.trusteeDetails}>
-      <Image src="/asset/donation.jpg" height={350} width={350} alt="trustee" />
-      <h3>Dr Name Name</h3>
-      <h3>Trustee</h3>
+      <Image src={src} height={350} width={350} alt={name} />
+      <h3>{name}</h3>
+      <h3>{title}</h3>
     </div>
   );
 };

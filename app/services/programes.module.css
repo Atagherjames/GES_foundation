@@ -83,6 +83,9 @@
 }
 
 @media (max-width: 1000px) {
+  .cardContainer {
+    gap: 80px;
+  }
   .cardContainer a {
     flex-basis: 100%;
   }

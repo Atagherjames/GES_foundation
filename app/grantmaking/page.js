@@ -31,10 +31,8 @@ const page = () => {
                 implementation in any state across Nigeria.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                Apply for Grant
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">Apply for Grant</Button>
             </p>
           </Link>
 
@@ -52,10 +50,8 @@ const page = () => {
                 implementation in any state across Nigeria.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                Apply for Grant
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">Apply for Grant</Button>
             </p>
           </Link>
 
@@ -70,10 +66,8 @@ const page = () => {
                 implementation in any state across Nigeria.
               </p>
             </div>
-            <p>
-              <Button variant="outlined" className={styles.btnContainer}>
-                Learn More
-              </Button>
+            <p className={styles.btnContainer}>
+              <Button variant="outlined">Learn More</Button>
             </p>
           </Link>
         </div>

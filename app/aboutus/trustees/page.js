@@ -7,11 +7,26 @@ const page = () => {
         <h1>Board of Trustees</h1>
       </div>
       <div className={styles.trustee}>
-        <Trustees />
-        <Trustees />
-        <Trustees />
-        <Trustees />
-        <Trustees />
+        <Trustees
+          name="Mr Sylvester Ejembi Ikwebe"
+          title="CEO / Board Chairman"
+          src="/asset/Ikwebe.jpg"
+        />
+        <Trustees
+          name="Miss Victory Ebo Ikwebe"
+          title="Board Secretary"
+          src="/asset/Victory.jpg"
+        />
+        <Trustees
+          name="Mr Ese Esther Freeborn"
+          title="Member"
+          src="/asset/Ese.jpg"
+        />
+        <Trustees
+          name="Master Ikwebe Wisdom Ikwebe"
+          title="Member"
+          src="/asset/Wisdom.jpg"
+        />
       </div>
     </div>
   );

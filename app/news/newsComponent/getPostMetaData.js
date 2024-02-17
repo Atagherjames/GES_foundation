@@ -18,7 +18,10 @@ const getPostMetadata = () => {
       slug: fileName.replace(".md", ""),
     };
   });
-  return posts;
+
+  const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  return sortedPosts;
 };
 
 export default getPostMetadata;
