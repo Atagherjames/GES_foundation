@@ -27,15 +27,17 @@ const page = () => {
               </span>
             }
           >
-            <p>Card content</p>
-            <p>Card content</p>
-            <p>Card content</p>
+            <p>No. 1, Pathrep Street One man village,</p>
+            <p>Karu Local Government area of </p>
+            <p>Nassarawa State</p>
+            No. 1, Pathrep Street One man village, Karu Local Government area of
+            Nassarawa State
           </Card>
         </div>
         <section className={styles.contactInfo}>
           <div className={styles.mapContainer}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.1219999296577!2d7.580669999999999!3d9.052635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e098efac0a49f%3A0x3a5719dd5d3360c5!2sGbagalape%20living%20faith%20nyanya!5e0!3m2!1sen!2sng!4v1706619373896!5m2!1sen!2sng"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63048.55896137939!2d7.5513544!3d9.0148685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e057742910bcd%3A0x8903412a4139096d!2sShopping%20Center%2C%20One%20Man%20Village!5e0!3m2!1sen!2sng!4v1708511514463!5m2!1sen!2sng"
               width="800"
               height="500"
               style={{ border: 1 }}

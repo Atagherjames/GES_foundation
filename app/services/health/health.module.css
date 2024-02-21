@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -52,6 +52,9 @@
 }
 
 @media (max-width: 800px) {
+  .topHeader {
+    height: 250px;
+  }
   .topHeader div {
     width: 90%;
   }

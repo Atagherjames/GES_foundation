@@ -1,8 +1,8 @@
 ---
-title: "React Crash Course"
-date: "March 8, 2021"
-excerpt: "Crash course to learn the React JavaScript library. We will look at components, hooks and more"
-cover_image: "/asset/annual.jpg"
+title: 'Django Crash Course'
+date: 'March 5, 2021'
+excerpt: 'Django is a very powerful, high level Python framework for building web applications'
+cover_image: '/images/posts/img3.jpg'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

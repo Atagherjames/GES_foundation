@@ -6,11 +6,11 @@
 
 .topHeader {
   width: 100%;
-  background-image: url("/asset/contact.jpg");
+  background-image: url("/asset/aboutus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 500px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -50,10 +50,19 @@
   font-size: 18px;
 }
 
+.text a {
+  color: rgba(43, 102, 185, 0.9);
+}
+
+.text a:hover {
+  color: rgba(43, 102, 185, 0.7);
+}
+
 @media (max-width: 800px) {
   .topHeader {
     font-size: 30px;
     text-align: center;
+    height: 250px;
   }
 
   .textContainer p {

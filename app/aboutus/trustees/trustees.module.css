@@ -6,11 +6,11 @@
 
 .topHeader {
   width: 100%;
-  background-image: url("/asset/contact.jpg");
+  background-image: url("/asset/trustees.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 500px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -44,5 +44,6 @@
   .topHeader {
     font-size: 30px;
     text-align: center;
+    height: 250px;
   }
 }

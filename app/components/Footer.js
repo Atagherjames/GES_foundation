@@ -18,9 +18,11 @@ const Footer = () => {
         </div>
         <div className={styles.footerContact}>
           <h3>Contact Us</h3>
-          <p>123 NGO Street, Cityville, Country</p>
-          <p>Email: info@ngosite.org</p>
-          <p>Phone: 09097895859</p>
+          <p>No. 1, Pathrep street One man village</p>
+          <p>Karu Local Government Area of </p>
+          <p>Nassarawa State</p>
+          <p>email@gmail.com</p>
+          <p>Phone: 08035808052</p>
         </div>
         <div className={styles.footerLinks}>
           <h3>Quick Links</h3>

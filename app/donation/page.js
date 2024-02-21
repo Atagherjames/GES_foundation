@@ -7,9 +7,7 @@ import TextArea from "antd/lib/input/TextArea";
 const donation = () => {
   return (
     <div className={styles.donationContainer}>
-      <section className={styles.donationHeader}>
-        <h1>Support Our Work</h1>
-      </section>
+      <section className={styles.donationHeader}></section>
       <section className={styles.donationBody}>
         <h3>
           Thank you for your interest in the work of the Foundation. If you wish

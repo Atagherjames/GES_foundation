@@ -16,7 +16,7 @@ const Impact = () => {
         {/* cards */}
         <Card className={styles.card}>
           <DollarOutlined className={styles.icon} />
-          <h1>$900 Thousand</h1>
+          <h1>₦500, 000 </h1>
           <p>Awarded in Grants</p>
         </Card>
 
@@ -29,13 +29,13 @@ const Impact = () => {
         {/* cards */}
         <Card className={styles.card}>
           <GlobalOutlined className={styles.icon} />
-          <h1>Across 10 States</h1>
-          <p>and the FCT</p>
+          <h1>Across 10 Communities</h1>
+          <p>in Nassarawa</p>
         </Card>
         {/* cards */}
         <Card className={styles.card}>
           <TeamOutlined className={styles.icon} />
-          <h1>More than 20 Thousand</h1>
+          <h1>More than 200 </h1>
           <p>People Reached</p>
         </Card>
       </div>

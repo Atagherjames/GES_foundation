@@ -1,5 +1,4 @@
 import styles from "./grantmaking.module.css";
-import card from "./impact.module.css";
 import Link from "next/link";
 import { CarryOutOutlined, ShoppingFilled } from "@ant-design/icons";
 

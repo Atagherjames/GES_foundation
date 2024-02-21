@@ -62,6 +62,9 @@
 }
 
 @media (max-width: 800px) {
+  .topHeader {
+    height: 250px;
+  }
   .topHeader div {
     width: 90%;
   }

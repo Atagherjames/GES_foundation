@@ -6,11 +6,11 @@
 
 .donationHeader {
   width: 100%;
-  background-image: url("/asset/donation.jpg");
+  background-image: url("/asset/donate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 600px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -47,6 +47,7 @@
 
   .donationHeader {
     font-size: 30px;
+    height: 250px;
   }
 
   .form {

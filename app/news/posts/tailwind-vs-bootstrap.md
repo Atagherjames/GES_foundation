@@ -1,8 +1,8 @@
 ---
-title: "Python Book Review"
-date: "March 7, 2021"
-excerpt: "In this review, we will be looking at the new Python book from Oriley"
-cover_image: "/asset/annual.jpg"
+title: 'Tailwind vs. Bootstrap'
+date: 'March 5, 2021'
+excerpt: 'Both Tailwind and Bootstrap are very popular CSS frameworks. In this article, we will compare them'
+cover_image: '/images/posts/img2.jpg'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
