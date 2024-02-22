@@ -15,7 +15,7 @@ const Mobile = () => {
             src={"/asset/ges_foundation.png"}
             height={100}
             width={100}
-            alt="GES Foundation"
+            alt=" Silver GES Foundation"
           />
         </Link>
         <Hamburger duration={0.4} toggled={isOpen} toggle={setOpen} />
