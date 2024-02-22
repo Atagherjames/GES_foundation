@@ -16,80 +16,65 @@ const News = () => {
             <CardMedia
               component="img"
               height="200"
-              image="/asset/education.jpg"
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                <Link href={"/"} className={styles.newsHeader}>
-                  Foundational
-                </Link>
-              </Typography>
-              <Typography gutterBottom variant="p" component="p">
-                Dec, 3 2024
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Link href={"/"}>Learn more</Link>
-          </CardActions>
-        </Card>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardActionArea>
-            <CardMedia
-              component="img"
-              height="200"
               image="/asset/Children.jpg"
               alt="green iguana"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                <Link href={"/"} className={styles.newsHeader}>
-                  RECENT NEWS
+                <Link
+                  href={"/news/onemanvillagechildsupport"}
+                  className={styles.newsHeader}
+                >
+                  Silver SEG Foundation Brings Hope to Children in One Man
+                  Village
                 </Link>
               </Typography>
               <Typography gutterBottom variant="p" component="p">
-                Dec, 3 2024
+                Posted on Feb 2, 2024
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                Silver SEG Foundation launches a special initiative to support
+                children in One Man Village, Nassarawa State, bringing hope and
+                positive change to the community.
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Link href={"/"}>Learn more</Link>
+            <Link href={"/news/onemanvillagechildsupport"}>Learn more</Link>
           </CardActions>
         </Card>
+
         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
             <CardMedia
               component="img"
               height="200"
-              image="/asset/educaation.jpg"
-              alt="green iguana"
+              image="/asset/community.jpg"
+              alt="Community Support"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                <Link href={"/"} className={styles.newsHeader}>
-                  Updated News
+                <Link
+                  href={"/news/community-support"}
+                  className={styles.newsHeader}
+                >
+                  Silver SEG Foundation Launches Ambitious Community Support
+                  Initiative
                 </Link>
               </Typography>
               <Typography gutterBottom variant="p" component="p">
-                Dec, 3 2024
+                Jan 04, 2024
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                Silver SEG Foundation, under the visionary leadership of
+                Sylvester Ejembi Ikwebe, announces a multifaceted community
+                support initiative, aiming to uplift and transform communities
+                throughout Nigeria.
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Link href={"/"}>Learn more</Link>
+            <Link href={"/news/community-support"}>Learn more</Link>
           </CardActions>
         </Card>
       </div>

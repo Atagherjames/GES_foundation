@@ -7,7 +7,7 @@ const GrantMaking = () => {
     <div className={styles.grantContainer}>
       <h1>GRANTMAKING</h1>
       <div className={styles.cardContainer}>
-        <Link href={"/"}>
+        <Link href={"/grantmaking/annual"}>
           <div className={styles.card}>
             <CarryOutOutlined className={styles.icon} />
             <h2>Annual Grant</h2>
@@ -21,7 +21,7 @@ const GrantMaking = () => {
           </div>
         </Link>
 
-        <Link href={"/"}>
+        <Link href={"/grantmaking/descritionary"}>
           <div className={styles.card}>
             <ShoppingFilled className={styles.icon} />
             <h2>Discretionary Grants</h2>
