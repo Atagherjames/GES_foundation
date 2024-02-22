@@ -70,7 +70,7 @@ const News = () => {
             <CardMedia
               component="img"
               height="200"
-              image="/asset/house.jpg"
+              image="/asset/educaation.jpg"
               alt="green iguana"
             />
             <CardContent>

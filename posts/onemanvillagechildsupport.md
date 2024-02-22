@@ -2,7 +2,7 @@
 title: "Silver SEG Foundation Brings Hope to Children in One Man Village"
 date: "Feb 2, 2024"
 excerpt: "Silver SEG Foundation launches a special initiative to support children in One Man Village, Nassarawa State, bringing hope and positive change to the community."
-cover_image: "/asset/educaation.jpg"
+cover_image: "/asset/Children.jpg"
 ---
 
 In a heartwarming effort to make a tangible impact, **Silver SEG Foundation** has initiated a special program to support the children of One Man Village in Nassarawa State. Guided by the foundation's commitment to child protection and empowerment, this initiative aims to bring hope and positive change to the lives of the young residents.
